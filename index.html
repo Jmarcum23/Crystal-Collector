@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Bowlby+One" rel="stylesheet">
+<script src="assets/js/game.js" async></script>
+</head>
+<body >
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<img id="header-img" class="img-responsive" src="assets/images/header.png" alt="jewel collectors">			
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="content">
+		<div class="container">
+			<div class="row mt mb">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<button data-toggle="collapse" data-target="#demo">Game Rules</button>
+					<div id="demo" class="collapse">
+						<p>You will be given a random number at the start of the game.</p>
+						<p>
+						There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+						<p>
+						You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+						<p>
+						The value of each crystal is hidden from you until you click on it.</p>
+						<p>
+						Each time the game starts, the game will change the values of each crystal. 
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row mt mb">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<h1 id="game-number"></h1>
+					<ul id="crystals">
+						<li id="red-crystal"></li>
+						<li id="blue-crystal"></li>
+						<li id="yellow-crystal"></li>
+						<li id="green-crystal"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row mt mb">
+				<div class="col-sm-4 col-md-4 col-lg-4 purple">
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<h1>Score:</h1>
+						<h1 id="score"></h1>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4 purple">
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<h1>Wins:</h1>
+						<h1 id="wins"></h1>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4 purple">
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<h1>Losses:</h1>
+						<h1 id="losses"></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<p>©2017 Jennifer Marcum</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+

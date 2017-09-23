@@ -1,0 +1,129 @@
+body {
+	color: #371f5e;
+	font-size: 24px;
+}
+
+button {
+	background: #371f5e;
+	border-radius: 40px;
+	border: none;
+	color: #fff;
+	padding: 10px 30px;
+	box-shadow: 0px 4px #1f0d42;
+	margin-bottom: 25px;
+	font-family: 'Bowlby One', cursive;
+	letter-spacing: 2px;
+}
+button:hover {
+	background: #543987;
+	box-shadow: 0px 4px #371f5e;
+}
+.collapse p {
+	padding: 0px 60px;
+}
+
+h1 {
+	font-family: 'Bowlby One', cursive;
+}
+header, footer {
+	background: #84cfcc;
+}
+#header-img {
+	display: block;
+	margin: 0 auto;
+	width: 800px;
+}
+.mt {
+	margin-top: 60px;
+}
+
+.mb {
+	margin-bottom: 60px;
+}
+section {
+	text-align: center;
+}
+
+ul#crystals {
+	padding: 0;
+}
+
+ul#crystals li {
+	display: inline-block;
+	margin: 10px;
+}
+
+li#red-crystal {
+	background: url(../images/red-crystal.png);
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+}
+
+li#blue-crystal {
+	background: url(../images/blue-crystal.png);
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+}
+
+li#yellow-crystal {
+	background: url(../images/yellow-crystal.png);
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+}
+
+li#green-crystal {
+	background: url(../images/green-crystal.png);
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+}
+
+.purple {
+	background: #371f5e;
+	padding: 30px;
+	border-radius: 20px;
+	border-left:6px solid white;
+    border-right:6px solid white;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer {
+	height: 100px;
+	text-align: center;
+	padding-top: 40px;
+	margin-top:60px;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+    li#red-crystal {
+    background: url(../images/red-crystal@2x.png);
+    background-size: 150px 150px
+	}
+	li#blue-crystal {
+    background: url(../images/blue-crystal@2x.png);
+    background-size: 150px 150px
+	}
+	li#yellow-crystal {
+    background: url(../images/yellow-crystal@2x.png);
+    background-size: 150px 150px
+	}
+	li#green-crystal {
+    background: url(../images/green-crystal@2x.png);
+    background-size: 150px 150px
+	}
+
+}
